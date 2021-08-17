@@ -4,17 +4,20 @@
     clear: both;
 }
 body {
-    background-image: url(Background/wall4.png);
+    background-image: url(Background/pink\ dust.png);
     width: 100%;
     overflow-x: hidden;
+    color: white;
 }
 /* Navbar */
 nav {
     overflow: hidden;
     height: 56px;
-    background-color: rgba(240, 246, 247, .5);
+    background-color: rgba(240, 246, 247, 1);
 }
 nav h2 {
+    font-family: 'STIX Two Text', serif;
+    font-weight: bold;
     line-height: 56px;
     display: inline-block;
     margin-left: 40px;
@@ -475,7 +478,11 @@ a:hover .div1{
 
 
 /* Wish + Story */
+section#wish{
+    color: black;
+}
 .container1{
+    color: white;
     padding: 15px 0;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
